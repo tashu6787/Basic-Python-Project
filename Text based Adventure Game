@@ -1,0 +1,31 @@
+print("""WELCOME TO THE ADVENTURE GAME!
+        Let's begin the game
+        Once Rahul was in his room and his doors were locked from inside, and suddenly a sound came from outside.
+        
+        What will you do? 
+        You will STAY or COME OUT""")
+a=input("What you want to do?")
+if(a=='COME OUT'):
+    print("""The moment he came out of the room he saw a shadow behind him when he turned back no one was there.
+              Then someone called his name from the Kitchen...
+              
+              What you goona do?
+              Will you GO or NOT""")
+    b=input("What you want to do?")
+    if(b=='GO'):
+        print("""He assembeled himself and he went to kitchen. He realised something was off in the kitchen. 
+                Things were not at their position. It seems like someone did cooking over there. He decided to check the Fridge.
+                
+                What you goona do?
+                Will you CHECK or IGNORE""")
+        c=input("What you want to do?")
+        if(c=='CHECK'):
+            print("""When he opened the fridge he saw something cooked was there when he removed the plate it was pasta over there.
+                      He was shocked as pasta is his fav. food.""")
+        else:
+            print("""He didn't opened the fridge and went back to his room and slept.""")
+    else:
+        print("""He decided not to go to kitchen he thought it might be something he is wondering. so he went back to his room.""")
+else:
+    print(""" The continous sound from outside was coming. The sound was not frequent it feels like someone is screaming
+              and then again he keep quiet.""")
