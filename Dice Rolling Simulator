@@ -1,0 +1,45 @@
+import random
+x='y'
+while x=='y':
+    no=random.randint(1,6)
+    if no == 1:
+        print("_______")
+        print("|      |")
+        print("|   0  |")
+        print("|      |")
+        print("_______")
+    if no == 2:
+        print("_______")
+        print("| 0    |")
+        print("|      |")
+        print("|     0|")
+        print("_______")
+    if no == 3:
+        print("_______")
+        print("| 0    |")
+        print("|   0  |")
+        print("|     0|")
+        print("_______")
+    if no == 4:
+        print("_______")
+        print("| 0  0 |")
+        print("|      |")
+        print("| 0  0 |")
+        print("_______")
+    if no == 5:
+        print("_______")
+        print("| 0  0 |")
+        print("|   0  |")
+        print("| 0  0 |")
+        print("_______")
+    if no == 6:
+        print("_______")
+        print("| 0  0 |")
+        print("| 0  0 |")
+        print("| 0  0 |")
+        print("_______")
+        
+        x=input("Press y if you want to roll the dice again to exit press n")
+        print("\n")
+    
+
